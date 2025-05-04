@@ -1,0 +1,19 @@
+server:
+  port: 1111
+
+logging:
+  level:
+    org.springframework.boot.context.config: DEBUG
+
+spring:
+  mvc:
+    view:
+      prefix:  /WEB-INF/views/
+      suffix: .jsp
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+app:
+  name: reading from app.prop
