@@ -13,3 +13,8 @@ Did some Changes then push the code
 git add .
 git commit -m "Your message about the changes"
 git push ...
+
+after changes in repo
++++++++++++++++++++++
+git branch chek the branch
+git pull origin main
