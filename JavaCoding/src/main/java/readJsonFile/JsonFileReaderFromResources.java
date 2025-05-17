@@ -45,7 +45,6 @@ public class JsonFileReaderFromResources {
             ObjectMapper mapper = new ObjectMapper();
             mapper.registerModule(new JavaTimeModule());
 
-
             UserData userData = mapper.readValue(inputStream, UserData.class);
 
             System.out.println("Username: " + userData.getUsername());
